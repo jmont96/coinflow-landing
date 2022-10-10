@@ -7,7 +7,7 @@
     font-family: 'Manrope', -apple-system, serif;
 }
 .text-gradient {
-    background: linear-gradient(to right, #00C7A3, #42F5A0 );
+    background: linear-gradient(to right, #27cb9a, #00ff8a);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     /*display: block;*/
