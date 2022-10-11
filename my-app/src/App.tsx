@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./assets/logo-with-text.png";
-import moneyImg from "./assets/coinflow-landing.png";
 
 import "./App.css";
+import { ContactTeamModal } from "./modals/ContactTeamModal";
 
 function App() {
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
+
   function onClick() {
-    console.log("click");
+    setModalOpen(true);
   }
+
   return (
     <div className={"h-screen w-full flex relative"}>
+      <ContactTeamModal open={modalOpen} setOpen={setModalOpen} />
       <div
         className={
           "absolute right-0 bottom-1/4 lg:left-12 lg:bottom-96  bg-green-200 w-96 h-96 rounded-full blur-xl opacity-20"

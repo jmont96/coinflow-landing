@@ -1,8 +1,9 @@
+@import '~antd/dist/antd.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
 *{
     font-family: 'Manrope', -apple-system, serif;
 }
@@ -11,4 +12,14 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     /*display: block;*/
+}
+
+
+.ant-modal-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.ant-modal-content {
+    border-radius: 20px;
 }
