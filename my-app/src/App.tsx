@@ -67,7 +67,7 @@ function App() {
                   for Web3
                 </span>
                 <span className={"text-lg text-zinc-600 font-medium"}>
-                  The easiest solution to onramp and offramp crypto for web2 and
+                  The easiest web3 checkout solution and offramp for web2 and
                   web3 users
                 </span>
               </div>
@@ -101,8 +101,9 @@ function App() {
                     Seamless credit purchases
                   </p>
                   <p className={"text-zinc-600 text-md font-medium"}>
-                    Easily purchase in-game tokens with a credit card. Purchased
-                    currency is locked into your platform and is 1:1 with USDC.
+                    Enable a familiar "Web2" checkout experience for your Web3
+                    product allowing users to easily checkout with their
+                    favorite credit cards
                   </p>
                 </div>
               </div>
