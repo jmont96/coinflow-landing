@@ -52,7 +52,7 @@ export const SendEmailComponent = (props: Props) => {
         onChange={(e) => setName(e.target.value)}
       />
       <label className={"text-sm font-medium text-zinc-800 mb-2 ml-2 mt-8"}>
-        Message to team
+        Message & contact info
       </label>
       <input
         name={"message"}
